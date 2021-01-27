@@ -8,7 +8,7 @@
 		RaceTrack silverstone = new RaceTrack(83, false); //set av lap time to 83sec. 
 						//make sure it is not raining to begin with
 		
-		 * Note: if the second parameter is set to above 100 here my program handles it by setting fuel to its maximum value of 100. */
+		/* Note: if the second parameter is set to above 100 here my program handles it by setting fuel to its maximum value of 100. */
 		Car car1 = new Car(1, 80, 7, 3, 35, 21, 10);						
 		
 		Car car2 = new Car(2, 49, 3, 4, 20, 15, 11);
