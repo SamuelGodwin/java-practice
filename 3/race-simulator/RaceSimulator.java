@@ -24,7 +24,7 @@
 		System.out.println("car 1 totalTime: " + car1.getTotalTime() + ".");
 		System.out.println("car 2 totalTime: " + car2.getTotalTime() + ".");
 		System.out.println("car 3 totalTime: " + car3.getTotalTime() + ".");
-		System.out.println("The car in the lead after lap 1 is... car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ".");
+		System.out.println("The car in the lead after lap 1 is car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ".");
 		
 		car1.completeLap(silverstone);
 		car2.completeLap(silverstone);
@@ -32,7 +32,7 @@
 		System.out.println("car 1 totalTime: " + car1.getTotalTime() + ".");
 		System.out.println("car 2 totalTime: " + car2.getTotalTime() + ".");
 		System.out.println("car 3 totalTime: " + car3.getTotalTime() + ".");
-		System.out.println("The car in the lead after lap 2 is... car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ".");
+		System.out.println("The car in the lead after lap 2 is car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ".");
 		
 		silverstone.setIsRaining(true);
 		System.out.println("Rain on silverstone now set to " + silverstone.getIsRaining() + ".");
@@ -45,7 +45,7 @@
 		System.out.println("car 3 totalTime: " + car3.getTotalTime() + ".");
 	
 		// Prints the leader in the race after lap 3 and so the overall winner of the race.
-		System.out.println("The car in the lead after lap 3 is... car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ". WINNER!!");
+		System.out.println("The car in the lead after lap 3 is car " + silverstone.determineRaceLeader(car1, car2, car3, silverstone) + ". WINNER!!");
 
 	}
 }
