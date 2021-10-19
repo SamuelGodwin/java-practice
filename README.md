@@ -4,6 +4,8 @@ Some simple Java syntax practice. Something to look back to for a refresh.
 
 ![](./CalorieTracker.gif)
 
+![](./RaceSimulator.gif)
+
 ## Usage
 
 - `1/message-printer`; compile and run the Driver class, `MessagePrinter`.
