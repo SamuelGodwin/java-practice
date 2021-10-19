@@ -2,7 +2,7 @@
 
 Some simple Java syntax practice. Something to look back to for a refresh.
 
-![](./Video_21-10-19_02-30-13.gif)
+![](./ezgif.com-gif-maker (35).gif)
 
 ## Usage
 
